@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PyKids — учим Python играя</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="app-header">
+  <a class="logo" href="#/">
+    <span class="logo-icon">🐍</span>
+    <span class="logo-text">PyKids</span>
+  </a>
+  <div class="header-stats">
+    <div class="stat stat-xp" title="Опыт">
+      <span class="stat-icon">✨</span>
+      <span id="xp-value">0</span>
+    </div>
+    <div class="stat stat-streak" title="Дней подряд">
+      <span class="stat-icon">🔥</span>
+      <span id="streak-value">0</span>
+    </div>
+  </div>
+  <div class="header-actions">
+    <button id="btn-mute" class="icon-btn">🔊</button>
+    <button id="btn-profile" class="icon-btn">👤</button>
+  </div>
+</header>
+<main id="app"></main>
+<div id="toast-container"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js"></script>
+<script src="data/course-map.js"></script>
+<script src="data/lessons/l1-m1-01.js"></script>
+<script src="data/lessons/l1-m1-02.js"></script>
+<script src="data/lessons/l1-m1-03.js"></script>
+<script src="data/lessons/l1-m1-04.js"></script>
+
+<script src="data/lessons/l1-m2-05.js"></script>
+<script src="data/lessons/l1-m2-06.js"></script>
+<script src="data/lessons/l1-m2-07.js"></script>
+<script src="data/lessons/l1-m2-08.js"></script>
+
+
+<script src="data/lessons/l1-m5-17.js"></script>
+<script src="data/lessons/l1-m5-18.js"></script>
+<script src="data/lessons/l1-m5-19.js"></script>
+<script src="data/lessons/l1-m5-20.js"></script>
+
+<script src="js/state.js"></script>
+<script src="js/python-runner.js"></script>
+<script src="js/checker.js"></script>
+<script src="js/editor.js"></script>
+<script src="js/lesson-view.js"></script>
+<script src="js/engagement.js"></script>
+<script src="js/interactives.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
